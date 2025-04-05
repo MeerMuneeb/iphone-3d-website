@@ -14,7 +14,7 @@ function Jumbotron() {
     return (
         <div className="jumbotron-section wrapper">
             <h2 className="title">New</h2>
-            <img className="logo" src={Iphone} alt="iphone 14 Pro"/>
+            <img className="logo" src={Iphone} alt="iphone 14 Pro" />
             <p className="text">Big and bigger.</p>
             <span className="description">
                 From $999 or $41.62/mo. for 24 mo. before trade-in
@@ -27,7 +27,7 @@ function Jumbotron() {
                     <a className="link" onClick={handleLearnMore}>Learn More</a>
                 </li>
             </ul>
-            <img className="iphone-img" src={HoldingIphone} alt="iPhone"/>
+            <img className="iphone-img" src={HoldingIphone} alt="iPhone" />
         </div>
     );
 }
